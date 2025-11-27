@@ -101,3 +101,19 @@
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #quotes,
+  #books {
+    margin: 0 5%;
+  }
+
+  .book-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .book-cover {
+    height: 5rem;
+  }
+}

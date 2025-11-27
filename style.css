@@ -430,3 +430,95 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* QUOTES SECTION */
+
+#quotes {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  margin-bottom: 4rem;
+}
+
+.quotes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 90%;
+  max-width: 800px;
+  margin-top: 2rem;
+}
+
+.quote-box {
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  background: rgb(250, 250, 250);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: rgb(85, 85, 85);
+}
+
+/* BOOKS SECTION */
+
+#books {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  margin-bottom: 4rem;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 90%;
+  max-width: 800px;
+  margin-top: 2rem;
+}
+
+.book-card {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  border-radius: 1.5rem;
+  background: rgb(250, 250, 250);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  align-items: center;
+}
+
+.book-cover {
+  height: 7rem;
+  width: auto;
+  border-radius: 0.5rem;
+}
+
+.book-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.book-author {
+  margin: 0.3rem 0;
+  color: rgb(85, 85, 85);
+}
+
+.book-desc {
+  font-size: 1rem;
+  line-height: 1.5;
+}
